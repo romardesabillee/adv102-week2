@@ -10,7 +10,7 @@ export default function Layout() {
                 }}
             />
             <Stack.Screen 
-                name="test" 
+                name="Test1" 
                 options={{
                     title: 'Settings - test'
                 }}

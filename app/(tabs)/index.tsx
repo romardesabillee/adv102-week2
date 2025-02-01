@@ -1,9 +1,16 @@
-import { View, Text, StyleSheet } from "react-native"
+import { View, Text, StyleSheet, Button, Pressable } from "react-native"
+import { Link } from "expo-router"
 
 export default function Home() {
 
     return (
         <View style={styles.container}>
+            <Link href="/about">
+                About
+            </Link>
+            <Link href="/contact">
+                Contact
+            </Link>
             <View style={styles.child1}>
                 {/* <Text style={styles.text}>Layout</Text> */}
                 <View style={styles.child11}></View>
